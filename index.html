@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure</title>
+    <!-- adding css -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-links mobile-menu">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Tour</a></li>
+            <li><a href="#">Explore</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#" class="ctn">Contact</a></li>
+        </ul>
+        <img src="./images/menu-btn.png" class="menu-btn" id="menu-btn">
+    </nav>
+    <!-- end of the navbar -->
+    <!-- Header -->
+    <header>
+        <div class="header-content">
+            <h2>Explore The Colorful World </h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL GIFT</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+    <!-- End of the header -->
+    <!-- Start Of The Events -->
+    <section class="events">
+        <div class="title">
+            <h2>Upcoming Events</h2>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./images/img1.png" alt="" srcset="">
+                <h4>Everest Camp Trek</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam eligendi atque consequuntur nisi explicabo velit neque ad cupiditate. Sequi quisquam repellendus nih!</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="./images/img2.png" alt="" srcset="">
+                <h4>Everest Camp Trek</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam eligendi atque consequuntur nisi explicabo velit neque ad cupiditate. Sequi quisquam repellendus nih!</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+    </section>
+<!-- end of the events -->
+<!-- start of the explore -->
+    <section class="explore">
+        <div class="explore-content">
+            <h2>EXPLORE THE WORLD</h2>
+            <div class="line"></div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt quisquam veritatis repudiandae explicabo corporis eum alias assumenda facilis harum facere, similique mollitia officia quibusdam.</p>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </section>
+<!-- end of the explore -->
+    <section class="upcoming-tours">
+            <div class="col-3">
+                <h2>UPCOMING TOURS & DESTINATION</h2>
+                <div class="line"></div>
+                <p>Lorem ipsum Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt sed expedita qui asperiores minus molestiae facilis cupiditate itaque culpa laudantium repellat quae maiores voluptates libero a, nulla maxime porro! Nam, adipisci. Nam fuga corporis sequi, aut esicing elit. Est reiciendis sapiente nisi voluptatullam non, in?</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="gallery">
+                <img src="./images/img3.png" alt="" srcset="">
+                <img src="./images/img4.png" alt="" srcset="">
+                <img src="./images/img5.png" alt="" srcset="">
+                <img src="./images/img6.png" alt="" srcset="">
+            </div>
+        </div>
+    </section>
+    <footer>
+        © 2022 , All The Rights Reserved.
+        </footer>
+    <script>
+        const menuBtn = document.querySelector(".menu-btn");
+        const navLinks = document.querySelector(".nav-links")
+        menuBtn.addEventListener('click',()=>{
+            console.log(5);
+            navLinks.classList.toggle('mobile-menu');
+        })
+    </script>
+</body>
+</html>
